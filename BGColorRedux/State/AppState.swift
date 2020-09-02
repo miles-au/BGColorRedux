@@ -8,6 +8,8 @@
 
 import ReSwift
 
-struct AppState: StateType{
-    var rgb: RGB = RGB(r: 255, g: 255, b: 255)
+struct AppState: StateType{    
+    var red = 255
+    var green = 255
+    var blue = 255
 }

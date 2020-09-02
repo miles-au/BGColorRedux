@@ -9,14 +9,18 @@
 import ReSwift
 
 /**
-    The Reducer receives an action, and updates the state. Nobody else should be able to update the state.
+ The Reducer receives an action, and updates the state. Nobody else should be able to update the state.
  */
 func colorReducer(action: Action, state: AppState?) -> AppState{
     var state = state ?? AppState()
     
     switch action {
-    case let color as ColorActionChangeRGB:
-        state.rgb = RGB.from(number: color.colorNum)
+    case let color as ColorActionChangeRed:
+        state.red = color.value
+    case let color as ColorActionChangeGreen:
+        state.green = color.value
+    case let color as ColorActionChangeBlue:
+        state.blue = color.value
     default:
         break
     }

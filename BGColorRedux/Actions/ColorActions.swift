@@ -8,10 +8,14 @@
 
 import ReSwift
 
-struct ColorActionChangeRGB: Action{
-    let colorNum: Int
+class ColorAction: Action{
+    let value: Int
     
-    init(num: Int) {
-        colorNum = num
+    init(value: Int) {
+        self.value = value
     }
 }
+
+class ColorActionChangeRed: ColorAction{}
+class ColorActionChangeGreen: ColorAction{}
+class ColorActionChangeBlue: ColorAction{}

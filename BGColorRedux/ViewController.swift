@@ -24,13 +24,20 @@ class ViewController: UIViewController, StoreSubscriber {
         Gets called when the state is updated. Make updates to the UI in response to changes in the state here.
      */
     func newState(state: AppState) {
-        let rgb = state.rgb
-        colorLabel.text = "(\(rgb.r),\(rgb.g),\(rgb.b))"
-        view.backgroundColor = UIColor(red: CGFloat(rgb.r)/255, green: CGFloat(rgb.g)/255, blue: CGFloat(rgb.b)/255, alpha: CGFloat(1))
+        colorLabel.text = "(\(state.red),\(state.green),\(state.blue))"
+        view.backgroundColor = UIColor(red: CGFloat(state.red)/255, green: CGFloat(state.green)/255, blue: CGFloat(state.blue)/255, alpha: CGFloat(1))
     }
 
-    @IBAction func colorSliderValueChanged(_ sender: UISlider) {
-        mainStore.dispatch(ColorActionChangeRGB(num: Int(sender.value)))
+    @IBAction func redSliderValueChanged(_ sender: UISlider) {
+        mainStore.dispatch(ColorActionChangeRed(value: Int(sender.value)))
+    }
+    
+    @IBAction func blueSliderValueChanged(_ sender: UISlider) {
+        mainStore.dispatch(ColorActionChangeGreen(value: Int(sender.value)))
+    }
+    
+    @IBAction func greenSliderValueChanged(_ sender: UISlider) {
+        mainStore.dispatch(ColorActionChangeBlue(value: Int(sender.value)))
     }
 }
 

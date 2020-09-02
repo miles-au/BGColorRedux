@@ -16,7 +16,6 @@
 		07A2DD0824FFF91600229B17 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0724FFF91600229B17 /* AppState.swift */; };
 		07A2DD0A24FFF9C400229B17 /* ColorReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0924FFF9C400229B17 /* ColorReducer.swift */; };
 		07A2DD0E24FFFAB600229B17 /* ColorActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0D24FFFAB500229B17 /* ColorActions.swift */; };
-		07A2DD1124FFFB2600229B17 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD1024FFFB2600229B17 /* RGB.swift */; };
 		5933B94D9500FD4A0CDDA992 /* Pods_BGColorRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BF237317F33D19CADC3C1 /* Pods_BGColorRedux.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +31,6 @@
 		07A2DD0724FFF91600229B17 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		07A2DD0924FFF9C400229B17 /* ColorReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorReducer.swift; sourceTree = "<group>"; };
 		07A2DD0D24FFFAB500229B17 /* ColorActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorActions.swift; sourceTree = "<group>"; };
-		07A2DD1024FFFB2600229B17 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
 		094A3B0D81420D0C4296D9CD /* Pods-BGColorRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGColorRedux.release.xcconfig"; path = "Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux.release.xcconfig"; sourceTree = "<group>"; };
 		347BF237317F33D19CADC3C1 /* Pods_BGColorRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGColorRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE654DD61DB886E65AB494AD /* Pods-BGColorRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGColorRedux.debug.xcconfig"; path = "Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux.debug.xcconfig"; sourceTree = "<group>"; };
@@ -71,7 +69,6 @@
 		07A2DCEF24FFF74D00229B17 /* BGColorRedux */ = {
 			isa = PBXGroup;
 			children = (
-				07A2DD0F24FFFB1B00229B17 /* Model */,
 				07A2DD0624FFF8A900229B17 /* Actions */,
 				07A2DD0424FFF89E00229B17 /* Reducers */,
 				07A2DD0524FFF8A300229B17 /* State */,
@@ -108,14 +105,6 @@
 				07A2DD0D24FFFAB500229B17 /* ColorActions.swift */,
 			);
 			path = Actions;
-			sourceTree = "<group>";
-		};
-		07A2DD0F24FFFB1B00229B17 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				07A2DD1024FFFB2600229B17 /* RGB.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		6F94FBF4E95338495E48F872 /* Frameworks */ = {
@@ -254,7 +243,6 @@
 				07A2DD0E24FFFAB600229B17 /* ColorActions.swift in Sources */,
 				07A2DCF524FFF74D00229B17 /* ViewController.swift in Sources */,
 				07A2DCF124FFF74D00229B17 /* AppDelegate.swift in Sources */,
-				07A2DD1124FFFB2600229B17 /* RGB.swift in Sources */,
 				07A2DCF324FFF74D00229B17 /* SceneDelegate.swift in Sources */,
 				07A2DD0824FFF91600229B17 /* AppState.swift in Sources */,
 			);
