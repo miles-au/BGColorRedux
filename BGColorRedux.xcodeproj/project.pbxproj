@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A2DCF124FFF74D00229B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DCF024FFF74D00229B17 /* AppDelegate.swift */; };
+		07A2DCF324FFF74D00229B17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DCF224FFF74D00229B17 /* SceneDelegate.swift */; };
+		07A2DCF524FFF74D00229B17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DCF424FFF74D00229B17 /* ViewController.swift */; };
+		07A2DCF824FFF74D00229B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A2DCF624FFF74D00229B17 /* Main.storyboard */; };
+		07A2DCFA24FFF74F00229B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A2DCF924FFF74F00229B17 /* Assets.xcassets */; };
+		07A2DCFD24FFF74F00229B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07A2DCFB24FFF74F00229B17 /* LaunchScreen.storyboard */; };
+		07A2DD0824FFF91600229B17 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0724FFF91600229B17 /* AppState.swift */; };
+		07A2DD0A24FFF9C400229B17 /* ColorReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0924FFF9C400229B17 /* ColorReducer.swift */; };
+		07A2DD0E24FFFAB600229B17 /* ColorActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD0D24FFFAB500229B17 /* ColorActions.swift */; };
+		07A2DD1124FFFB2600229B17 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2DD1024FFFB2600229B17 /* RGB.swift */; };
+		5933B94D9500FD4A0CDDA992 /* Pods_BGColorRedux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 347BF237317F33D19CADC3C1 /* Pods_BGColorRedux.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07A2DCED24FFF74D00229B17 /* BGColorRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGColorRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A2DCF024FFF74D00229B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07A2DCF224FFF74D00229B17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07A2DCF424FFF74D00229B17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07A2DCF724FFF74D00229B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07A2DCF924FFF74F00229B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07A2DCFC24FFF74F00229B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07A2DCFE24FFF74F00229B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A2DD0724FFF91600229B17 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		07A2DD0924FFF9C400229B17 /* ColorReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorReducer.swift; sourceTree = "<group>"; };
+		07A2DD0D24FFFAB500229B17 /* ColorActions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorActions.swift; sourceTree = "<group>"; };
+		07A2DD1024FFFB2600229B17 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		094A3B0D81420D0C4296D9CD /* Pods-BGColorRedux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGColorRedux.release.xcconfig"; path = "Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux.release.xcconfig"; sourceTree = "<group>"; };
+		347BF237317F33D19CADC3C1 /* Pods_BGColorRedux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGColorRedux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE654DD61DB886E65AB494AD /* Pods-BGColorRedux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGColorRedux.debug.xcconfig"; path = "Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07A2DCEA24FFF74D00229B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5933B94D9500FD4A0CDDA992 /* Pods_BGColorRedux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07A2DCE424FFF74D00229B17 = {
+			isa = PBXGroup;
+			children = (
+				07A2DCEF24FFF74D00229B17 /* BGColorRedux */,
+				07A2DCEE24FFF74D00229B17 /* Products */,
+				AF5EE1F1E7DFCCBB76DDF089 /* Pods */,
+				6F94FBF4E95338495E48F872 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07A2DCEE24FFF74D00229B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DCED24FFF74D00229B17 /* BGColorRedux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07A2DCEF24FFF74D00229B17 /* BGColorRedux */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DD0F24FFFB1B00229B17 /* Model */,
+				07A2DD0624FFF8A900229B17 /* Actions */,
+				07A2DD0424FFF89E00229B17 /* Reducers */,
+				07A2DD0524FFF8A300229B17 /* State */,
+				07A2DCF024FFF74D00229B17 /* AppDelegate.swift */,
+				07A2DCF224FFF74D00229B17 /* SceneDelegate.swift */,
+				07A2DCF424FFF74D00229B17 /* ViewController.swift */,
+				07A2DCF624FFF74D00229B17 /* Main.storyboard */,
+				07A2DCF924FFF74F00229B17 /* Assets.xcassets */,
+				07A2DCFB24FFF74F00229B17 /* LaunchScreen.storyboard */,
+				07A2DCFE24FFF74F00229B17 /* Info.plist */,
+			);
+			path = BGColorRedux;
+			sourceTree = "<group>";
+		};
+		07A2DD0424FFF89E00229B17 /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DD0924FFF9C400229B17 /* ColorReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		07A2DD0524FFF8A300229B17 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DD0724FFF91600229B17 /* AppState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		07A2DD0624FFF8A900229B17 /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DD0D24FFFAB500229B17 /* ColorActions.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		07A2DD0F24FFFB1B00229B17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07A2DD1024FFFB2600229B17 /* RGB.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F94FBF4E95338495E48F872 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				347BF237317F33D19CADC3C1 /* Pods_BGColorRedux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF5EE1F1E7DFCCBB76DDF089 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE654DD61DB886E65AB494AD /* Pods-BGColorRedux.debug.xcconfig */,
+				094A3B0D81420D0C4296D9CD /* Pods-BGColorRedux.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07A2DCEC24FFF74D00229B17 /* BGColorRedux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07A2DD0124FFF74F00229B17 /* Build configuration list for PBXNativeTarget "BGColorRedux" */;
+			buildPhases = (
+				6913D7B570BE9450F2ED60AA /* [CP] Check Pods Manifest.lock */,
+				07A2DCE924FFF74D00229B17 /* Sources */,
+				07A2DCEA24FFF74D00229B17 /* Frameworks */,
+				07A2DCEB24FFF74D00229B17 /* Resources */,
+				56B11F898C41549D7117BD43 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BGColorRedux;
+			productName = BGColorRedux;
+			productReference = 07A2DCED24FFF74D00229B17 /* BGColorRedux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07A2DCE524FFF74D00229B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Miles Au";
+				TargetAttributes = {
+					07A2DCEC24FFF74D00229B17 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 07A2DCE824FFF74D00229B17 /* Build configuration list for PBXProject "BGColorRedux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07A2DCE424FFF74D00229B17;
+			productRefGroup = 07A2DCEE24FFF74D00229B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07A2DCEC24FFF74D00229B17 /* BGColorRedux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07A2DCEB24FFF74D00229B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A2DCFD24FFF74F00229B17 /* LaunchScreen.storyboard in Resources */,
+				07A2DCFA24FFF74F00229B17 /* Assets.xcassets in Resources */,
+				07A2DCF824FFF74D00229B17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56B11F898C41549D7117BD43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BGColorRedux/Pods-BGColorRedux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6913D7B570BE9450F2ED60AA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BGColorRedux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07A2DCE924FFF74D00229B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A2DD0A24FFF9C400229B17 /* ColorReducer.swift in Sources */,
+				07A2DD0E24FFFAB600229B17 /* ColorActions.swift in Sources */,
+				07A2DCF524FFF74D00229B17 /* ViewController.swift in Sources */,
+				07A2DCF124FFF74D00229B17 /* AppDelegate.swift in Sources */,
+				07A2DD1124FFFB2600229B17 /* RGB.swift in Sources */,
+				07A2DCF324FFF74D00229B17 /* SceneDelegate.swift in Sources */,
+				07A2DD0824FFF91600229B17 /* AppState.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07A2DCF624FFF74D00229B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A2DCF724FFF74D00229B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07A2DCFB24FFF74F00229B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07A2DCFC24FFF74F00229B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07A2DCFF24FFF74F00229B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07A2DD0024FFF74F00229B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07A2DD0224FFF74F00229B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE654DD61DB886E65AB494AD /* Pods-BGColorRedux.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X24VA92QA;
+				INFOPLIST_FILE = BGColorRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesau.BGColorRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07A2DD0324FFF74F00229B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 094A3B0D81420D0C4296D9CD /* Pods-BGColorRedux.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6X24VA92QA;
+				INFOPLIST_FILE = BGColorRedux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.milesau.BGColorRedux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07A2DCE824FFF74D00229B17 /* Build configuration list for PBXProject "BGColorRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A2DCFF24FFF74F00229B17 /* Debug */,
+				07A2DD0024FFF74F00229B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07A2DD0124FFF74F00229B17 /* Build configuration list for PBXNativeTarget "BGColorRedux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A2DD0224FFF74F00229B17 /* Debug */,
+				07A2DD0324FFF74F00229B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07A2DCE524FFF74D00229B17 /* Project object */;
+}
